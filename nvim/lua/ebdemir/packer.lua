@@ -42,7 +42,7 @@ return require('packer').startup(function(use)
 			{ 'hrsh7th/cmp-nvim-lua' },
 
 			-- Snippets
-			-- { 'L3MON4D3/LuaSnip' },
+			{ 'L3MON4D3/LuaSnip' },
 			-- Snippet Collection (Optional)
 			-- { 'rafamadriz/friendly-snippets' },
 		}
