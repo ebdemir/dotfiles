@@ -61,4 +61,6 @@ lsp.on_attach(function(client, bufnr)
 
 end)
 
+vim.lsp.set_log_level("ERROR")
+
 lsp.setup()

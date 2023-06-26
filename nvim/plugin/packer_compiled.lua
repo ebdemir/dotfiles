@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/ebdemir/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["git-blame.nvim"] = {
+    loaded = true,
+    path = "/home/ebdemir/.local/share/nvim/site/pack/packer/start/git-blame.nvim",
+    url = "https://github.com/f-person/git-blame.nvim"
+  },
   gruvbox = {
     config = { "\27LJ\2\n7\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\24colorscheme gruvbox\bcmd\bvim\0" },
     loaded = true,
@@ -154,6 +159,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ebdemir/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tree-sitter-c"] = {
+    loaded = true,
+    path = "/home/ebdemir/.local/share/nvim/site/pack/packer/start/tree-sitter-c",
+    url = "https://github.com/tree-sitter/tree-sitter-c"
+  },
+  ["tree-sitter-glsl"] = {
+    loaded = true,
+    path = "/home/ebdemir/.local/share/nvim/site/pack/packer/start/tree-sitter-glsl",
+    url = "https://github.com/theHamsta/tree-sitter-glsl"
   }
 }
 
