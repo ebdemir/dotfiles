@@ -33,3 +33,7 @@ vim.keymap.set("n", "<A-h>", "<CMD>ClangdSwitchSourceHeader<CR>")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+vim.keymap.set("n", "<leader>qo", "<CMD>copen<CR>")
+vim.keymap.set("n", "<leader>qn", "<CMD>cnext<CR>")
+vim.keymap.set("n", "<leader>qp", "<CMD>cprev<CR>")
+

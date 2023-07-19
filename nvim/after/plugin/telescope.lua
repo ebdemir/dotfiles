@@ -7,3 +7,13 @@ vim.keymap.set('n', '<leader>b', builtin.buffers, {})
 vim.keymap.set('n', '<leader>gc', builtin.git_commits, {})
 vim.keymap.set('n', '<leader>gb', builtin.git_bcommits, {})
 vim.keymap.set('n', '<leader>gs', builtin.git_status, {})
+
+local actions = require('telescope.actions')
+require('telescope').setup {
+    defaults = {
+        mappings = {
+            i = { ["<C-q>"] = actions.smart_send_to_qflist + actions.open_qflist, },
+            n = { ["<C-q>"] = actions.smart_send_to_qflist + actions.open_qflist, },
+        },
+    }
+}
