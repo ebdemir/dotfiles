@@ -198,7 +198,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 bindsym $mod+Shift+b exec --no-startup-id reboot
 bindsym $mod+Shift+p exec --no-startup-id poweroff
-bindsym $mod+Escape exec /home/ebdemir/.config/i3/lock.sh
+bindsym $mod+Escape exec --no-startup-id /home/ebdemir/.config/i3/lock.sh
 
 bindsym $mod+Tab workspace next_on_output
 bindsym $mod+Shift+Tab workspace prev_on_output
