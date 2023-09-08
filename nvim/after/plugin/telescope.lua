@@ -15,5 +15,6 @@ require('telescope').setup {
             i = { ["<C-q>"] = actions.smart_send_to_qflist + actions.open_qflist, },
             n = { ["<C-q>"] = actions.smart_send_to_qflist + actions.open_qflist, },
         },
+        layout_strategy = 'vertical',
     }
 }

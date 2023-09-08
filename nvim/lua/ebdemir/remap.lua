@@ -27,6 +27,8 @@ vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
 vim.keymap.set("n", "<leader>c", "<CMD>bd<CR>")
+vim.keymap.set("n", "<leader>C", "<CMD>bd!<CR>")
+
 vim.keymap.set("n", "<C-l>", "<CMD>bn<CR>")
 vim.keymap.set("n", "<C-h>", "<CMD>bp<CR>")
 vim.keymap.set("n", "<A-h>", "<CMD>ClangdSwitchSourceHeader<CR>")

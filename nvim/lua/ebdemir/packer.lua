@@ -55,7 +55,6 @@ return require('packer').startup(function(use)
             -- { 'rafamadriz/friendly-snippets' },
         }
     }
-    use {
-        'f-person/git-blame.nvim'
-    }
+    use { 'f-person/git-blame.nvim' }
+    use { 'mfussenegger/nvim-dap' }
 end)
