@@ -39,3 +39,5 @@ vim.keymap.set("n", "<leader>qo", "<CMD>copen<CR>")
 vim.keymap.set("n", "<leader>qn", "<CMD>cnext<CR>")
 vim.keymap.set("n", "<leader>qp", "<CMD>cprev<CR>")
 
+vim.keymap.set("n", "<leader>Qp", ":Cppman <C-r><C-w><CR>gg")
+vim.keymap.set("n", "<leader>Qh", ":Cht <C-r><C-w><CR>")
