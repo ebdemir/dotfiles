@@ -120,7 +120,7 @@ bindkey -v
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias la="ls -lah"
-alias ll="ls -ll" 
+alias ll="ls -l" 
 extra_ssh_args="-v $HOME/.ssh/id_rsa:/home/vscode/.ssh/id_rsa -v $HOME/.ssh/id_rsa.pub:/home/vscode/.ssh/id_rsa.pub -v $HOME/.ssh/known_hosts:/home/vscode/.ssh/known_hosts"
 extra_yocto_args="-v devcontainer_home:/home ${extra_ssh_args}"
 alias cthardknott="run_docker ${extra_yocto_args} yocto/hardknott"
@@ -144,7 +144,6 @@ alias devsh="sudo picocom -b 115200 /dev/ttyUSB0"
 alias lv="lvim"
 alias v="nvim"
 alias cdf="cd /home/ebdemir/fw/codec_firmware_root/sources/firmware/"
-alias cgca="/home/ebdemir/fw/codec_firmware_root/build/tmp/work/cortexa53-crypto-mx8mp-poky-linux/gca/1.0+git999-r0/recipe-sysroot-native/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/aarch64-poky-linux-strip /home/ebdemir/fw/codec_firmware_root/build/tmp/work/cortexa53-crypto-mx8mp-poky-linux/gca/1.0+git999-r0/gca-1.0+git999/opt/bin/gca; scp -O /home/ebdemir/fw/codec_firmware_root/build/tmp/work/cortexa53-crypto-mx8mp-poky-linux/gca/1.0+git999-r0/gca-1.0+git999/opt/bin/gca root@172.25.253.90:/usr/bin"
 
 # opam configuration
 [[ ! -r /home/ebdemir/.opam/opam-init/init.zsh ]] || source /home/ebdemir/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null

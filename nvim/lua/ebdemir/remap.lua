@@ -40,4 +40,7 @@ vim.keymap.set("n", "<leader>qn", "<CMD>cnext<CR>")
 vim.keymap.set("n", "<leader>qp", "<CMD>cprev<CR>")
 
 vim.keymap.set("n", "<leader>Qp", ":Cppman <C-r><C-w><CR>gg")
-vim.keymap.set("n", "<leader>Qh", ":Cht <C-r><C-w><CR>")
+vim.keymap.set("n", "<leader>Qh", ":Cht <C-r><C-w>")
+
+vim.keymap.set("v", "<leader>Qp", [["vy:Cppman <C-r>v<CR>gg]])
+vim.keymap.set("v", "<leader>Qh", [["vy:Cht <C-r>v]])
