@@ -6,7 +6,7 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.0',
+        'nvim-telescope/telescope.nvim', tag = '0.1.4',
         -- or                            , branch = '0.1.x',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
         'morhetz/gruvbox',
         as = 'gruvbox',
         config = function()
+            vim.cmd([[let g:gruvbox_invert_selection = 0]])
             vim.cmd('colorscheme gruvbox')
         end
     })
@@ -55,6 +56,11 @@ return require('packer').startup(function(use)
             -- { 'rafamadriz/friendly-snippets' },
         }
     }
-    use { 'f-person/git-blame.nvim' }
+    use({
+        'f-person/git-blame.nvim',
+        config = function()
+            vim.cmd([[let g:gitblame_enabled = 0]])
+        end
+    })
     use { 'mfussenegger/nvim-dap' }
 end)

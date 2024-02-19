@@ -39,7 +39,7 @@ exec --no-startup-id nm-applet
 # exec --no-startup-id xsetroot -solid "#333333"
 exec_always --no-startup-id "autorandr --change; ~/.config/polybar/launch.sh"
 
-exec --no-startup-id nitrogen --restore
+exec_always --no-startup-id nitrogen --restore
 # exec --no-startup-id feh --bg-fill --no-xinerama /home/ebdemir/.config/i3/wallpaper.jpg
 # exec --no-startup-id xrandr --output DP-1-2 --auto --left-of eDP-1
 # exec --no-startup-id xrandr --output HDMI-1-1 --auto --right-of eDP-1

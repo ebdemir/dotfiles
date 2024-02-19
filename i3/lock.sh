@@ -9,5 +9,6 @@
 #     xterm -fullscreen -bg black -class "lockscreen" -e asciiquarium &
 # fi
 
+# wezterm -e asciiquarium & xtrlock; xdotool key q
 xterm -fullscreen -bg black -e asciiquarium & xtrlock; xdotool key q
 
